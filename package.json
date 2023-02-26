@@ -1,0 +1,27 @@
+{
+  "name": "clipboard",
+  "version": "0.0.1",
+  "description": "clipboard",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "wes bundle src/clipboard.cs usage.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wachaon/clipboard.git"
+  },
+  "keywords": [
+    "clicpboard"
+  ],
+  "author": "wachaon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wachaon/clipboard/issues"
+  },
+  "homepage": "https://github.com/wachaon/clipboard#readme",
+  "wes": {
+    "dependencies": {
+      "csharpscript": "0.0.4"
+    }
+  }
+}
